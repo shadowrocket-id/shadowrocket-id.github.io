@@ -2,5 +2,3 @@
 ###  点击免费安装：https://shadowrocket-id.github.io/
 
 
-###  点击购买永久账号：https://pingguo.id
-
