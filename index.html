@@ -412,13 +412,7 @@
 
             accounts.forEach(acc => {
                 let displayEmail = acc.email;
-                if (displayEmail && displayEmail.includes('@')) {
-                    let [local, domain] = displayEmail.split('@');
-                    if (local.length > 4) {
-                        local = local.substring(0, 3) + '***' + local.slice(-1);
-                    }
-                    displayEmail = local + '@' + domain;
-                }
+
 
                 const card = document.createElement('div');
                 card.className = 'account-card';
